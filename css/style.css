@@ -534,3 +534,25 @@ input {
   height: 150px;
   background-color: #dcc1ff;
 }
+
+.main__menu {
+  border: 4px solid rgba(255, 203, 203, 0.486);
+  padding: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main__menu .menu__item {
+  margin: 10px 10px 10px 10px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.336);
+}
+.main__menu .menu__item .submenu {
+  line-height: 2;
+  display: none;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.705);
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.068);
+}
