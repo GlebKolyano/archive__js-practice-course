@@ -589,6 +589,14 @@ input {
   position: absolute;
 }
 
+button {
+  height: 40px;
+  background: white;
+  max-width: 100%;
+  min-width: 200px;
+  border-radius: 5px;
+}
+
 .modal__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -597,13 +605,6 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-.modal__wrapper button {
-  height: 40px;
-  background: white;
-  max-width: 100%;
-  min-width: 200px;
-  border-radius: 5px;
 }
 .modal__wrapper .modal {
   position: fixed;
@@ -643,6 +644,22 @@ input {
   background-color: rgba(253, 243, 154, 0.384);
   color: black;
   font-size: 22px;
+}
+
+.animation {
+  text-align: center;
+}
+
+.animation-box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(220, 20, 60, 0.596);
+}
+.animation-box .animation-block {
+  width: 50px;
+  height: 50px;
+  background-color: darkkhaki;
 }
 
 .hide {
