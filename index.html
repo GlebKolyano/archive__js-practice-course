@@ -4,13 +4,73 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/1__input-handlers.js" defer></script>
   <title>Document</title>
 </head>
 
 <body>
-<header class="header">HEADER</header>
-<footer class="footer">FOOTER</footer></body>
+  <div class="wrapper">
+<header class="header">
+  <div class="container">
+    <div class="header__row">
+
+    </div>
+  </div>
+</header>    <section class="main">
+      <div class="practice">
+        <h2>Practice #1: Input Handlers</h2>
+        <form class="container">
+          <div class="main__form">
+
+            <label>Элемент<input type="checkbox" id="checkbox-1"></label>
+            <p id='p3'>Элемент:</p>
+            <div class="main__radio">
+              <label><input type="radio" name="radio" value="фрукты">Фрукты</label>
+              <label><input type="radio" name="radio" value="овощи">Овощи</label>
+              <label><input type="radio" name="radio" value="фастфуд">Фастфуд</label>
+              <button class="button-radio">Какой выбран элемент</button>
+            </div>
+            <p id='p4'>Выбран элемент:</p>
+          </div>
+        </form>
+        <div class="container">
+          <div class="main__select">
+
+            <select id="mySelect">
+              <option value="0" selected>Банан</option>
+              <option value="1">Яблоко</option>
+              <option value="2">Манго</option>
+              <option value="3">Ананас</option>
+            </select>
+            <p id='p1'>Индекс выбранного элемента:</p>
+            <p id='p2'> Значение выбранного элемента: </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="main__range">
+            <input type="range" name="" min="0" max="100" step="1" id="range1">
+            <input type="text" name="" id="input1" value="Значение: 0">
+            <div id="test"></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="practice">
+        <h2>Practice #1: Input Handlers</h2>
+
+      </div>
+    </section>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__row">
+
+    </div>
+  </div>
+</footer>  </div>
+
+</body>
 
 </html>
