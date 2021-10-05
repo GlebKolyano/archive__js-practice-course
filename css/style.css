@@ -651,7 +651,6 @@ button {
 }
 
 .animation-box {
-  position: relative;
   width: 400px;
   height: 400px;
   background-color: rgba(220, 20, 60, 0.596);
@@ -660,6 +659,7 @@ button {
   width: 50px;
   height: 50px;
   background-color: darkkhaki;
+  position: relative;
 }
 
 .hide {
