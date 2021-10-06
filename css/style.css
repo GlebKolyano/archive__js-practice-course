@@ -670,9 +670,8 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 1200px;
+  max-width: 900px;
   width: 80%;
-  min-height: 100%;
   position: relative;
 }
 .slider__box .prev,
@@ -764,6 +763,35 @@ button {
 }
 .dot.active, .dot:hover {
   background-color: rgba(0, 0, 0, 0.425);
+}
+
+.filter__block {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.filterInput {
+  width: 100%;
+  font-style: 18px;
+  padding: 12px 20px 12px 5px;
+  border: 1px solid #bebebe;
+  margin-bottom: 12px;
+}
+
+.myUL li a {
+  border: 1px solid rgba(221, 221, 221, 0.253);
+  background-color: #fffecb49;
+  padding: 12px;
+  font-style: 18px;
+  display: block;
+}
+.myUL li a:not(.header):hover {
+  background-color: #fffecb80;
+  border: 1px solid rgba(221, 221, 221, 0.479);
+}
+.myUL a.header {
+  background-color: #a38a8a;
+  cursor: default;
 }
 
 .hide {
