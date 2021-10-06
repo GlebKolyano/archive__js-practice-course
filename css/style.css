@@ -995,3 +995,6 @@ button {
 .panel p {
   padding: 10px 10px;
 }
+.panel.show {
+  display: block;
+}
