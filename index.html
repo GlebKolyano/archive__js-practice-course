@@ -16,6 +16,8 @@
   <script src="/js/7__slider.js" defer></script>
   <script src="/js/8__Filter.js" defer></script>
   <script src="/js/9__Calculator.js" defer></script>
+  <script src="/js/10__Modal-Pictures.js" defer></script>
+
 
 
 
@@ -225,6 +227,21 @@
             <button class="divBtn">/</button>
             <button class="clearBtn">Очистить</button>
             <p id="calcOut">Ответ:</p>
+          </div>
+        </div>
+      </div>
+      <div class="practice">
+        <h2>Practice #10: Modal-Pictures</h2>
+        <div class="container">
+          <div class="picture__block">
+            <img src="/img/1280х850.jpg" alt="Car" id="modal-img1">
+            <div class="modal__picture" onclick="document.querySelector('.modal__picture').style.display = 'none'">
+              <span class="closeModalPicture"
+                onclick="document.querySelector('.modal__picture').style.display = 'none'">&times;</span>
+
+              <img class="modal__content" src="" id="modal-img2">
+
+            </div>
           </div>
         </div>
       </div>
