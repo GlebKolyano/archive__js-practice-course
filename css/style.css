@@ -907,3 +907,46 @@ button {
   line-height: 30px;
   color: #4d4d4d;
 }
+
+.pop-up {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.pop-up__text {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.pop-up__text.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
