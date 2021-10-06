@@ -885,3 +885,25 @@ button {
     width: 100%;
   }
 }
+#progress__block {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+#progress__block .barBtn {
+  margin-top: 50px;
+}
+#progress__block #bar__block {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #4caf50;
+}
+#progress__block #bar__block #precent__block {
+  text-align: center;
+  line-height: 30px;
+  color: #4d4d4d;
+}
