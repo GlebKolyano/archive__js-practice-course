@@ -794,6 +794,15 @@ button {
   cursor: default;
 }
 
+.calculator__block > button {
+  min-width: 40px;
+  font-size: 28px;
+}
+.calculator__block #calcOut {
+  padding: 5px 0 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.233);
+}
+
 .hide {
   display: none;
 }
